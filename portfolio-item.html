@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Job Portfolio Website</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" 
+    crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8a8146711c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- INTRO -->
+    <section class="intro" id="home">
+        <h1 class="section__title__intro"> The title of <strong> My Project</strong></h1>
+        <p class="section__subtitle__intro">Any subtitle here</p>
+        <img src="img/portfolio/portfolio-01.jpg" class="intro__img" alt="portfolio_img">
+    </section>
+
+    <div class="portfolio-item">
+        <p> Lorem Ipsum is simply dummy of the printing 
+            and typesetting industry. Lorem Ipsum has been 
+            the industry's standard dummy ever since 
+            the 1500s, when an unknown printer took a galley 
+            of type and scrambled it to make a type specimen book.</p>
+        <img src="img/portfolio/portfolio-01.jpg" alt="">
+        <p>Lorem Ipsum is simply dummy of the printing 
+            and typesetting industry. Lorem Ipsum has been 
+            the industry's standard dummy ever since 
+            the 1500s, when an unknown printer took a galley 
+            of type and scrambled it to make a type specimen book. </p>
+        <p>Lorem Ipsum is simply dummy of the printing 
+            and typesetting industry. Lorem Ipsum has been 
+            the industry's standard dummy ever since 
+            the 1500s, when an unknown printer took a galley 
+            of type and scrambled it to make a type specimen book. </p>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer"> 
+        <a href="mailto:stevejobs@apple.dev" class="footer__link">stevejobs@apple.dev</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook-f"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.github.com/">
+                        <i class="fab fa-github-alt"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/">
+                        <i class="fab fa-linkedin-in"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.youtube.com/">
+                        <i class="fab fa-youtube"></i></a></li>
+            </ul>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
